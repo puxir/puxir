@@ -5,6 +5,7 @@ import itertools
 
 cc = {''.join(n) for n in itertools.permutations('bcdfghjlmnpqrstvxz', 3)
       }  # Letters 'k', 'w' and 'y' removed (aesthetics).
+      
 vv = {''.join(n) + '_' for n in itertools.permutations('aeiou', 2)
       }  # Vowels...
 
