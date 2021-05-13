@@ -44,7 +44,7 @@ def image_paths(extensions=('gif', 'jpeg', 'jpg', 'png')):
         print(format_exc())
 
 
-def oscar_mike(from_path, to_path, min_pixels=9999):
+def oscar_mike(from_path, to_path, min_pixels=999):
     """
     """
 
